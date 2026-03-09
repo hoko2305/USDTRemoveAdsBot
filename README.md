@@ -1,0 +1,2 @@
+# USDTRemoveAdsBot
+USDTRemoveAdsBot
