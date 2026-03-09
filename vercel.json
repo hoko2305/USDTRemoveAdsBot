@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "api/bot.py",
+      "use": "@vercel/python@latest"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/bot",
+      "dest": "api/bot.py"
+    }
+  ],
+  "env": {
+    "PYTHON_VERSION": "3.10"
+  }
+}
